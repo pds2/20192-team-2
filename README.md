@@ -1,13 +1,14 @@
 # Gerenciamento de Zoológico
-Nossa ideia é construir um sistema para um zoológico, auxiliando na administração e gerenciamento de animais.
-Algumas funcionalidades serão:
+Nossa ideia é construir um sistema para um zoológico, auxiliando no gerenciamento de animais.
 
-* Cadastro de animais
-* Pesquisa de animais
+Funcionalidades:
 * Gerenciamento de animais
+    * Cadastro de animais
+    * Pesquisa de animais
+    * Acompanhamentos de animais
 * Gerenciamento de ambientes
-* Gerenciamento de infra-estrutura
-* Acompanhamentos de animais
+    * Dimensionamento das jaulas.
+
 
 ![a9a0d0fafb77c98afc401baa8cfb42a0](https://user-images.githubusercontent.com/36963093/66428256-1b3c4880-e9ec-11e9-8c30-9f3dfb0ef583.jpg)
 ## CRC's
