@@ -1,0 +1,4 @@
+/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/CMakeFiles/zoologico_cpp.dir
+/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/CMakeFiles/run.dir

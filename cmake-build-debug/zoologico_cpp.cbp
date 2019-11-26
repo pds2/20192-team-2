@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zoologico_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zoologico_cpp">
+				<Option output="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/zoologico_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zoologico_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zoologico_cpp/fast">
+				<Option output="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/zoologico_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 zoologico_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option working_dir="/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ana_carolina/Downloads/zoologico-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/AbstractInterface.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/AbstractInterface.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/BuscaAnimal.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/BuscaAnimal.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/CadastroAnimal.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/CadastroAnimal.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/Dashboard.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/Dashboard.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/Perfil.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/Interface/Perfil.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/AbstractConnection.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/AbstractConnection.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/Ambiente.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/Ambiente.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/Animal.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/Animal.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/HistoricoMedico.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/TAD/HistoricoMedico.hpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/main.cpp">
+			<Option target="zoologico_cpp"/>
+		</Unit>
+		<Unit filename="/home/ana_carolina/Downloads/zoologico-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
