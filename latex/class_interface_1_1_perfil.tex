@@ -1,0 +1,145 @@
+\hypertarget{class_interface_1_1_perfil}{}\doxysection{Interface\+::Perfil Class Reference}
+\label{class_interface_1_1_perfil}\index{Interface::Perfil@{Interface::Perfil}}
+
+
+{\ttfamily \#include $<$Perfil.\+hpp$>$}
+
+Inheritance diagram for Interface\+::Perfil\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_interface_1_1_perfil}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interface_1_1_perfil_a5b6996be1f96437065ba2b965cf177a8}{Perfil}} (\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $\ast$animal\+Selecionado)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_interface_1_1_abstract_interface}{Abstract\+Interface}} é chamada para mostrar o título. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_perfil_a29d31d3c2daa82a7b67a24f061b4547c}{exibir}} () override
+\begin{DoxyCompactList}\small\item\em Exibe menu para o perfil do animal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_interface_1_1_perfil_a699f6dc5e49e072288f2fde2c220a0fc}{processar\+Entrada}} (int opcao) override
+\begin{DoxyCompactList}\small\item\em Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_perfil_a30c2bcc7a18aee03d66a81f5d64c793e}{ver\+Ficha}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 1, as caracteristicas do respectivo animal são mostrada, seguidas de todas as transações na ficha médica. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_perfil_ab40d9876eb7e4232369a879c6cd972f6}{cadastro\+Historico\+Medico}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 2, um novo formulário é dado para o cadastramento de uma novas observações no histórico médico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} \mbox{\hyperlink{class_interface_1_1_perfil_a818010d5e172a587351122ee58621cc7}{animal}}
+\item 
+\mbox{\hyperlink{class_t_a_d_1_1_historico_medico}{T\+A\+D\+::\+Historico\+Medico}} \mbox{\hyperlink{class_interface_1_1_perfil_a4ced2d5eafc0628570cb86d82716d61c}{historico\+Medico}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interface_1_1_perfil_a5b6996be1f96437065ba2b965cf177a8}\label{class_interface_1_1_perfil_a5b6996be1f96437065ba2b965cf177a8}} 
+\index{Interface::Perfil@{Interface::Perfil}!Perfil@{Perfil}}
+\index{Perfil@{Perfil}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{Perfil()}{Perfil()}}
+{\footnotesize\ttfamily Interface\+::\+Perfil\+::\+Perfil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $\ast$}]{animal\+Selecionado }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\mbox{\hyperlink{class_interface_1_1_abstract_interface}{Abstract\+Interface}} é chamada para mostrar o título. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em título} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interface_1_1_perfil_ab40d9876eb7e4232369a879c6cd972f6}\label{class_interface_1_1_perfil_ab40d9876eb7e4232369a879c6cd972f6}} 
+\index{Interface::Perfil@{Interface::Perfil}!cadastroHistoricoMedico@{cadastroHistoricoMedico}}
+\index{cadastroHistoricoMedico@{cadastroHistoricoMedico}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{cadastroHistoricoMedico()}{cadastroHistoricoMedico()}}
+{\footnotesize\ttfamily void Interface\+::\+Perfil\+::cadastro\+Historico\+Medico (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Se a opção escolhida for 2, um novo formulário é dado para o cadastramento de uma novas observações no histórico médico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_perfil_a29d31d3c2daa82a7b67a24f061b4547c}\label{class_interface_1_1_perfil_a29d31d3c2daa82a7b67a24f061b4547c}} 
+\index{Interface::Perfil@{Interface::Perfil}!exibir@{exibir}}
+\index{exibir@{exibir}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{exibir()}{exibir()}}
+{\footnotesize\ttfamily void Interface\+::\+Perfil\+::exibir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Exibe menu para o perfil do animal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_interface_1_1_abstract_interface_af1a45726ea636cdbf1cf2d7daa5708be}{Interface\+::\+Abstract\+Interface}}.
+
+\mbox{\Hypertarget{class_interface_1_1_perfil_a699f6dc5e49e072288f2fde2c220a0fc}\label{class_interface_1_1_perfil_a699f6dc5e49e072288f2fde2c220a0fc}} 
+\index{Interface::Perfil@{Interface::Perfil}!processarEntrada@{processarEntrada}}
+\index{processarEntrada@{processarEntrada}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{processarEntrada()}{processarEntrada()}}
+{\footnotesize\ttfamily void Interface\+::\+Perfil\+::processar\+Entrada (\begin{DoxyParamCaption}\item[{int}]{opcao }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em opcao} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_interface_1_1_abstract_interface_a3491e705cd77a180209406fc063916d3}{Interface\+::\+Abstract\+Interface}}.
+
+\mbox{\Hypertarget{class_interface_1_1_perfil_a30c2bcc7a18aee03d66a81f5d64c793e}\label{class_interface_1_1_perfil_a30c2bcc7a18aee03d66a81f5d64c793e}} 
+\index{Interface::Perfil@{Interface::Perfil}!verFicha@{verFicha}}
+\index{verFicha@{verFicha}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{verFicha()}{verFicha()}}
+{\footnotesize\ttfamily void Interface\+::\+Perfil\+::ver\+Ficha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Se a opção escolhida for 1, as caracteristicas do respectivo animal são mostrada, seguidas de todas as transações na ficha médica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_interface_1_1_perfil_a818010d5e172a587351122ee58621cc7}\label{class_interface_1_1_perfil_a818010d5e172a587351122ee58621cc7}} 
+\index{Interface::Perfil@{Interface::Perfil}!animal@{animal}}
+\index{animal@{animal}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{animal}{animal}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} Interface\+::\+Perfil\+::animal\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_interface_1_1_perfil_a4ced2d5eafc0628570cb86d82716d61c}\label{class_interface_1_1_perfil_a4ced2d5eafc0628570cb86d82716d61c}} 
+\index{Interface::Perfil@{Interface::Perfil}!historicoMedico@{historicoMedico}}
+\index{historicoMedico@{historicoMedico}!Interface::Perfil@{Interface::Perfil}}
+\doxysubsubsection{\texorpdfstring{historicoMedico}{historicoMedico}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_a_d_1_1_historico_medico}{T\+A\+D\+::\+Historico\+Medico}} Interface\+::\+Perfil\+::historico\+Medico\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Interface/\mbox{\hyperlink{_perfil_8hpp}{Perfil.\+hpp}}\item 
+Interface/\mbox{\hyperlink{_perfil_8cpp}{Perfil.\+cpp}}\end{DoxyCompactItemize}

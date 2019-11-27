@@ -1,0 +1,164 @@
+\hypertarget{class_t_a_d_1_1_historico_medico}{}\doxysection{T\+AD\+::Historico\+Medico Class Reference}
+\label{class_t_a_d_1_1_historico_medico}\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+
+
+{\ttfamily \#include $<$Historico\+Medico.\+hpp$>$}
+
+Inheritance diagram for T\+AD\+::Historico\+Medico\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_t_a_d_1_1_historico_medico}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a860711f4be9736da018cbef494ac1b81}{get\+Id}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_ab8a56817ce2bdb6e51f09b06458149ea}{set\+Id}} (int \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_aaa1fa884d79c9092a3b48ef8c6c94500}{id}})
+\item 
+double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_ae140051b3a7bebc9a618857dc385d192}{get\+Peso}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_acf6b546943b87536a967a250e5661d7a}{set\+Peso}} (double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a821707b0550ed81155f1ce0087423c70}{peso}})
+\item 
+double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_aa8894488b701ae5308ffeb0c021bc20c}{get\+Altura}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_ac82fbb71b82f0649ef35b4f7ecac6df2}{set\+Altura}} (double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a11856b7798b5710343643fe46670f1d0}{altura}})
+\item 
+const std\+::string \& \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a0cdc5ffa3306c28e7aa70ac14cf746c3}{get\+Observacao}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a52cdb3498d991416be3213dd39ea50ee}{set\+Observacao}} (const std\+::string \&\mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a85309cfaf7005b1840cfdf4e99cf330d}{observacao}})
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_t_a_d_1_1_historico_medico}{T\+A\+D\+::\+Historico\+Medico}} $>$ \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a5a7a5f2c1f83b8f8edbbddc890b320bb}{selecionar\+Ficha\+Medica\+Por\+Id\+Animal}} (int animal\+Id)
+\begin{DoxyCompactList}\small\item\em Chama função para abrir conexão com o banco de dados, seleciona e retorna a ficha médica por meio do ID do animal e fecha conexão. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_ac77a65c4c1c6e8b5f8713f473f00e7c5}{cadastrar\+Historico\+Medico}} (int animal\+Id)
+\begin{DoxyCompactList}\small\item\em Chama função para abrir conexão com o banco de dados, adiciona uma nova ficha médica por meio do ID do animal e fecha conexão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_aaa1fa884d79c9092a3b48ef8c6c94500}{id}}
+\item 
+double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a821707b0550ed81155f1ce0087423c70}{peso}}
+\item 
+double \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a11856b7798b5710343643fe46670f1d0}{altura}}
+\item 
+std\+::string \mbox{\hyperlink{class_t_a_d_1_1_historico_medico_a85309cfaf7005b1840cfdf4e99cf330d}{observacao}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_ac77a65c4c1c6e8b5f8713f473f00e7c5}\label{class_t_a_d_1_1_historico_medico_ac77a65c4c1c6e8b5f8713f473f00e7c5}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!cadastrarHistoricoMedico@{cadastrarHistoricoMedico}}
+\index{cadastrarHistoricoMedico@{cadastrarHistoricoMedico}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{cadastrarHistoricoMedico()}{cadastrarHistoricoMedico()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Historico\+Medico\+::cadastrar\+Historico\+Medico (\begin{DoxyParamCaption}\item[{int}]{animal\+Id }\end{DoxyParamCaption})}
+
+
+
+Chama função para abrir conexão com o banco de dados, adiciona uma nova ficha médica por meio do ID do animal e fecha conexão. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em animal\+Id} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_aa8894488b701ae5308ffeb0c021bc20c}\label{class_t_a_d_1_1_historico_medico_aa8894488b701ae5308ffeb0c021bc20c}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!getAltura@{getAltura}}
+\index{getAltura@{getAltura}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{getAltura()}{getAltura()}}
+{\footnotesize\ttfamily double T\+A\+D\+::\+Historico\+Medico\+::get\+Altura (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a860711f4be9736da018cbef494ac1b81}\label{class_t_a_d_1_1_historico_medico_a860711f4be9736da018cbef494ac1b81}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!getId@{getId}}
+\index{getId@{getId}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Historico\+Medico\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a0cdc5ffa3306c28e7aa70ac14cf746c3}\label{class_t_a_d_1_1_historico_medico_a0cdc5ffa3306c28e7aa70ac14cf746c3}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!getObservacao@{getObservacao}}
+\index{getObservacao@{getObservacao}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{getObservacao()}{getObservacao()}}
+{\footnotesize\ttfamily const std\+::string \& T\+A\+D\+::\+Historico\+Medico\+::get\+Observacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_ae140051b3a7bebc9a618857dc385d192}\label{class_t_a_d_1_1_historico_medico_ae140051b3a7bebc9a618857dc385d192}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!getPeso@{getPeso}}
+\index{getPeso@{getPeso}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{getPeso()}{getPeso()}}
+{\footnotesize\ttfamily double T\+A\+D\+::\+Historico\+Medico\+::get\+Peso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a5a7a5f2c1f83b8f8edbbddc890b320bb}\label{class_t_a_d_1_1_historico_medico_a5a7a5f2c1f83b8f8edbbddc890b320bb}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!selecionarFichaMedicaPorIdAnimal@{selecionarFichaMedicaPorIdAnimal}}
+\index{selecionarFichaMedicaPorIdAnimal@{selecionarFichaMedicaPorIdAnimal}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{selecionarFichaMedicaPorIdAnimal()}{selecionarFichaMedicaPorIdAnimal()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_t_a_d_1_1_historico_medico}{T\+A\+D\+::\+Historico\+Medico}} $>$ T\+A\+D\+::\+Historico\+Medico\+::selecionar\+Ficha\+Medica\+Por\+Id\+Animal (\begin{DoxyParamCaption}\item[{int}]{animal\+Id }\end{DoxyParamCaption})}
+
+
+
+Chama função para abrir conexão com o banco de dados, seleciona e retorna a ficha médica por meio do ID do animal e fecha conexão. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em animal\+Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+lista\+Historico\+Medico 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_ac82fbb71b82f0649ef35b4f7ecac6df2}\label{class_t_a_d_1_1_historico_medico_ac82fbb71b82f0649ef35b4f7ecac6df2}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!setAltura@{setAltura}}
+\index{setAltura@{setAltura}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{setAltura()}{setAltura()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Historico\+Medico\+::set\+Altura (\begin{DoxyParamCaption}\item[{double}]{altura }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_ab8a56817ce2bdb6e51f09b06458149ea}\label{class_t_a_d_1_1_historico_medico_ab8a56817ce2bdb6e51f09b06458149ea}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!setId@{setId}}
+\index{setId@{setId}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Historico\+Medico\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a52cdb3498d991416be3213dd39ea50ee}\label{class_t_a_d_1_1_historico_medico_a52cdb3498d991416be3213dd39ea50ee}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!setObservacao@{setObservacao}}
+\index{setObservacao@{setObservacao}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{setObservacao()}{setObservacao()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Historico\+Medico\+::set\+Observacao (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{observacao }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_acf6b546943b87536a967a250e5661d7a}\label{class_t_a_d_1_1_historico_medico_acf6b546943b87536a967a250e5661d7a}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!setPeso@{setPeso}}
+\index{setPeso@{setPeso}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{setPeso()}{setPeso()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Historico\+Medico\+::set\+Peso (\begin{DoxyParamCaption}\item[{double}]{peso }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a11856b7798b5710343643fe46670f1d0}\label{class_t_a_d_1_1_historico_medico_a11856b7798b5710343643fe46670f1d0}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!altura@{altura}}
+\index{altura@{altura}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{altura}{altura}}
+{\footnotesize\ttfamily double T\+A\+D\+::\+Historico\+Medico\+::altura\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_aaa1fa884d79c9092a3b48ef8c6c94500}\label{class_t_a_d_1_1_historico_medico_aaa1fa884d79c9092a3b48ef8c6c94500}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!id@{id}}
+\index{id@{id}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Historico\+Medico\+::id\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a85309cfaf7005b1840cfdf4e99cf330d}\label{class_t_a_d_1_1_historico_medico_a85309cfaf7005b1840cfdf4e99cf330d}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!observacao@{observacao}}
+\index{observacao@{observacao}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{observacao}{observacao}}
+{\footnotesize\ttfamily std\+::string T\+A\+D\+::\+Historico\+Medico\+::observacao\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_historico_medico_a821707b0550ed81155f1ce0087423c70}\label{class_t_a_d_1_1_historico_medico_a821707b0550ed81155f1ce0087423c70}} 
+\index{TAD::HistoricoMedico@{TAD::HistoricoMedico}!peso@{peso}}
+\index{peso@{peso}!TAD::HistoricoMedico@{TAD::HistoricoMedico}}
+\doxysubsubsection{\texorpdfstring{peso}{peso}}
+{\footnotesize\ttfamily double T\+A\+D\+::\+Historico\+Medico\+::peso\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+A\+D/\mbox{\hyperlink{_historico_medico_8hpp}{Historico\+Medico.\+hpp}}\item 
+T\+A\+D/\mbox{\hyperlink{_historico_medico_8cpp}{Historico\+Medico.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,204 @@
+\hypertarget{class_interface_1_1_busca_animal}{}\doxysection{Interface\+::Busca\+Animal Class Reference}
+\label{class_interface_1_1_busca_animal}\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+
+
+{\ttfamily \#include $<$Busca\+Animal.\+hpp$>$}
+
+Inheritance diagram for Interface\+::Busca\+Animal\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_interface_1_1_busca_animal}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interface_1_1_busca_animal_a9472b3d87293d7cc3dde6e612957e9cf}{Busca\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Chama interface para mostrar o título. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_aa75d61a351d8c78b2dd8ef8415232f4e}{exibir}} () override
+\begin{DoxyCompactList}\small\item\em Pede inicialmente o nome de um animal para busca e analisa se este existe no banco. Se positivo, um menu para escolha é dado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_aaf56da1eec36d6d89de7cb0a8151833f}{processar\+Entrada}} (int opcao) override
+\begin{DoxyCompactList}\small\item\em Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_a42e19cf566b22a1781d2286386e2c7ab}{exibir\+Animal}} (const \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} \&\mbox{\hyperlink{class_interface_1_1_busca_animal_a045974ca130edc9a7e1a298fdf9e04cf}{animal}})
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 3, a função exibir\+Animal mostra as características do animal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_a428da05fceecea9ac9c01cacb2d8c81b}{avancar\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 1, a função avancar\+Animal prossegue para o proximo da lista se este existir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_afd460716ad1b1848d5adeb6f3d46c3c2}{retroceder\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 2, a função retroceder\+Animal volta para o animal anterior se este existir. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $\ast$ \mbox{\hyperlink{class_interface_1_1_busca_animal_a09ca78e3c7dc2568fd6fcdb5f5759fb5}{obter\+Animal\+Pelo\+Indice}} ()
+\begin{DoxyCompactList}\small\item\em Retorna animal escolhido de acordo com o índice dado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_busca_animal_a941b8631b8058f60b602c2f3247555df}{perfil}} ()
+\begin{DoxyCompactList}\small\item\em Exibe perfil do animal escolhido através do índice. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned long \mbox{\hyperlink{class_interface_1_1_busca_animal_a2b3303b4676873d87c82b7caff167898}{index}} \{\}
+\item 
+\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} \mbox{\hyperlink{class_interface_1_1_busca_animal_a045974ca130edc9a7e1a298fdf9e04cf}{animal}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $>$ \mbox{\hyperlink{class_interface_1_1_busca_animal_aff23b99e384d61852594bc953b78fb52}{animais}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a9472b3d87293d7cc3dde6e612957e9cf}\label{class_interface_1_1_busca_animal_a9472b3d87293d7cc3dde6e612957e9cf}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!BuscaAnimal@{BuscaAnimal}}
+\index{BuscaAnimal@{BuscaAnimal}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{BuscaAnimal()}{BuscaAnimal()}}
+{\footnotesize\ttfamily Interface\+::\+Busca\+Animal\+::\+Busca\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chama interface para mostrar o título. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em titulo} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a428da05fceecea9ac9c01cacb2d8c81b}\label{class_interface_1_1_busca_animal_a428da05fceecea9ac9c01cacb2d8c81b}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!avancarAnimal@{avancarAnimal}}
+\index{avancarAnimal@{avancarAnimal}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{avancarAnimal()}{avancarAnimal()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::avancar\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se a opção escolhida for 1, a função avancar\+Animal prossegue para o proximo da lista se este existir. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_aa75d61a351d8c78b2dd8ef8415232f4e}\label{class_interface_1_1_busca_animal_aa75d61a351d8c78b2dd8ef8415232f4e}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!exibir@{exibir}}
+\index{exibir@{exibir}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{exibir()}{exibir()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::exibir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Pede inicialmente o nome de um animal para busca e analisa se este existe no banco. Se positivo, um menu para escolha é dado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_interface_1_1_abstract_interface_af1a45726ea636cdbf1cf2d7daa5708be}{Interface\+::\+Abstract\+Interface}}.
+
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a42e19cf566b22a1781d2286386e2c7ab}\label{class_interface_1_1_busca_animal_a42e19cf566b22a1781d2286386e2c7ab}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!exibirAnimal@{exibirAnimal}}
+\index{exibirAnimal@{exibirAnimal}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{exibirAnimal()}{exibirAnimal()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::exibir\+Animal (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} \&}]{animal\+Atual }\end{DoxyParamCaption})}
+
+
+
+Se a opção escolhida for 3, a função exibir\+Animal mostra as características do animal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em animal\+Atual} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a09ca78e3c7dc2568fd6fcdb5f5759fb5}\label{class_interface_1_1_busca_animal_a09ca78e3c7dc2568fd6fcdb5f5759fb5}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!obterAnimalPeloIndice@{obterAnimalPeloIndice}}
+\index{obterAnimalPeloIndice@{obterAnimalPeloIndice}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{obterAnimalPeloIndice()}{obterAnimalPeloIndice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $\ast$ Interface\+::\+Busca\+Animal\+::obter\+Animal\+Pelo\+Indice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna animal escolhido de acordo com o índice dado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\&this-\/$>$animais.\+at(index) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a941b8631b8058f60b602c2f3247555df}\label{class_interface_1_1_busca_animal_a941b8631b8058f60b602c2f3247555df}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!perfil@{perfil}}
+\index{perfil@{perfil}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{perfil()}{perfil()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::perfil (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Exibe perfil do animal escolhido através do índice. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_aaf56da1eec36d6d89de7cb0a8151833f}\label{class_interface_1_1_busca_animal_aaf56da1eec36d6d89de7cb0a8151833f}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!processarEntrada@{processarEntrada}}
+\index{processarEntrada@{processarEntrada}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{processarEntrada()}{processarEntrada()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::processar\+Entrada (\begin{DoxyParamCaption}\item[{int}]{opcao }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em opcao} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_interface_1_1_abstract_interface_a3491e705cd77a180209406fc063916d3}{Interface\+::\+Abstract\+Interface}}.
+
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_afd460716ad1b1848d5adeb6f3d46c3c2}\label{class_interface_1_1_busca_animal_afd460716ad1b1848d5adeb6f3d46c3c2}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!retrocederAnimal@{retrocederAnimal}}
+\index{retrocederAnimal@{retrocederAnimal}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{retrocederAnimal()}{retrocederAnimal()}}
+{\footnotesize\ttfamily void Interface\+::\+Busca\+Animal\+::retroceder\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se a opção escolhida for 2, a função retroceder\+Animal volta para o animal anterior se este existir. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_aff23b99e384d61852594bc953b78fb52}\label{class_interface_1_1_busca_animal_aff23b99e384d61852594bc953b78fb52}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!animais@{animais}}
+\index{animais@{animais}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{animais}{animais}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}}$>$ Interface\+::\+Busca\+Animal\+::animais\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a045974ca130edc9a7e1a298fdf9e04cf}\label{class_interface_1_1_busca_animal_a045974ca130edc9a7e1a298fdf9e04cf}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!animal@{animal}}
+\index{animal@{animal}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{animal}{animal}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} Interface\+::\+Busca\+Animal\+::animal\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_interface_1_1_busca_animal_a2b3303b4676873d87c82b7caff167898}\label{class_interface_1_1_busca_animal_a2b3303b4676873d87c82b7caff167898}} 
+\index{Interface::BuscaAnimal@{Interface::BuscaAnimal}!index@{index}}
+\index{index@{index}!Interface::BuscaAnimal@{Interface::BuscaAnimal}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily unsigned long Interface\+::\+Busca\+Animal\+::index \{\}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Interface/\mbox{\hyperlink{_busca_animal_8hpp}{Busca\+Animal.\+hpp}}\item 
+Interface/\mbox{\hyperlink{_busca_animal_8cpp}{Busca\+Animal.\+cpp}}\end{DoxyCompactItemize}

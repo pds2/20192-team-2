@@ -1,0 +1,188 @@
+\hypertarget{class_t_a_d_1_1_animal}{}\doxysection{T\+AD\+::Animal Class Reference}
+\label{class_t_a_d_1_1_animal}\index{TAD::Animal@{TAD::Animal}}
+
+
+{\ttfamily \#include $<$Animal.\+hpp$>$}
+
+Inheritance diagram for T\+AD\+::Animal\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_t_a_d_1_1_animal}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_animal_a243e03a60025377043ce85e8615ec490}{get\+Id}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_a62f00b7506b9b47dcab3e253eecf9608}{set\+Id}} (int \mbox{\hyperlink{class_t_a_d_1_1_animal_ae5a2512419e6fcd2e5f8a86a5d0c163b}{id}})
+\item 
+const std\+::string \& \mbox{\hyperlink{class_t_a_d_1_1_animal_ad22e035ad6a06cae9894305d2a2d2d81}{get\+Nome}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_a87ad3fca0d4c968cf2a00790e191c98b}{set\+Nome}} (const std\+::string \&\mbox{\hyperlink{class_t_a_d_1_1_animal_a5db0bc6ed0fe839a50f483c7721655ef}{nome}})
+\item 
+const std\+::string \& \mbox{\hyperlink{class_t_a_d_1_1_animal_ac3063c0da27d022609459bd440ef4915}{get\+Especie}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_a746eb0658131e50342a91544f7a811ce}{set\+Especie}} (const std\+::string \&\mbox{\hyperlink{class_t_a_d_1_1_animal_a2943b48e824052e02c25a2274e45af6d}{especie}})
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_animal_abc1988e1fd3ea4d6adea8bd20df93014}{get\+Idade}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_a7dd6ac8aae05dbc975f78f9bedf72ad8}{set\+Idade}} (int \mbox{\hyperlink{class_t_a_d_1_1_animal_a3e3edebc80d438e37f6eb83ec759a9a8}{idade}})
+\item 
+const \mbox{\hyperlink{class_t_a_d_1_1_ambiente}{Ambiente}} \& \mbox{\hyperlink{class_t_a_d_1_1_animal_abd3813532848ac63aee55d80dec350aa}{get\+Ambiente}} () const
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_ac134b9cb49543290e692984f5eaeee36}{set\+Ambiente}} (const \mbox{\hyperlink{class_t_a_d_1_1_ambiente}{Ambiente}} \&\mbox{\hyperlink{class_t_a_d_1_1_animal_ae23cb573bafb67723c741a047c56d955}{ambiente}})
+\item 
+void \mbox{\hyperlink{class_t_a_d_1_1_animal_abcbd9e386777d5fde6a7ad183f5388cb}{cadastrar\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Chama função para abrir conexão com o banco de dados, insere um novo animal e chama função para fechá-\/lo. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_t_a_d_1_1_animal}{Animal}} $>$ \mbox{\hyperlink{class_t_a_d_1_1_animal_a28cad4a4ae128dc9c6dddfffd7505b6c}{buscar\+Animal\+Por\+Nome}} (const std\+::string \&\mbox{\hyperlink{class_t_a_d_1_1_animal_a5db0bc6ed0fe839a50f483c7721655ef}{nome}})
+\begin{DoxyCompactList}\small\item\em Chama função para abrir conexão com o banco de dados, pesquisa animal(is) por meio do nome dado e retorna as opções que contém aquela string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_animal_ae5a2512419e6fcd2e5f8a86a5d0c163b}{id}}
+\item 
+std\+::string \mbox{\hyperlink{class_t_a_d_1_1_animal_a5db0bc6ed0fe839a50f483c7721655ef}{nome}}
+\item 
+std\+::string \mbox{\hyperlink{class_t_a_d_1_1_animal_a2943b48e824052e02c25a2274e45af6d}{especie}}
+\item 
+int \mbox{\hyperlink{class_t_a_d_1_1_animal_a3e3edebc80d438e37f6eb83ec759a9a8}{idade}}
+\item 
+\mbox{\hyperlink{class_t_a_d_1_1_ambiente}{T\+A\+D\+::\+Ambiente}} \mbox{\hyperlink{class_t_a_d_1_1_animal_ae23cb573bafb67723c741a047c56d955}{ambiente}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a28cad4a4ae128dc9c6dddfffd7505b6c}\label{class_t_a_d_1_1_animal_a28cad4a4ae128dc9c6dddfffd7505b6c}} 
+\index{TAD::Animal@{TAD::Animal}!buscarAnimalPorNome@{buscarAnimalPorNome}}
+\index{buscarAnimalPorNome@{buscarAnimalPorNome}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{buscarAnimalPorNome()}{buscarAnimalPorNome()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_t_a_d_1_1_animal}{T\+A\+D\+::\+Animal}} $>$ T\+A\+D\+::\+Animal\+::buscar\+Animal\+Por\+Nome (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{nome\+Animal }\end{DoxyParamCaption})}
+
+
+
+Chama função para abrir conexão com o banco de dados, pesquisa animal(is) por meio do nome dado e retorna as opções que contém aquela string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Animal} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+animais 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_abcbd9e386777d5fde6a7ad183f5388cb}\label{class_t_a_d_1_1_animal_abcbd9e386777d5fde6a7ad183f5388cb}} 
+\index{TAD::Animal@{TAD::Animal}!cadastrarAnimal@{cadastrarAnimal}}
+\index{cadastrarAnimal@{cadastrarAnimal}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{cadastrarAnimal()}{cadastrarAnimal()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::cadastrar\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chama função para abrir conexão com o banco de dados, insere um novo animal e chama função para fechá-\/lo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_abd3813532848ac63aee55d80dec350aa}\label{class_t_a_d_1_1_animal_abd3813532848ac63aee55d80dec350aa}} 
+\index{TAD::Animal@{TAD::Animal}!getAmbiente@{getAmbiente}}
+\index{getAmbiente@{getAmbiente}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{getAmbiente()}{getAmbiente()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_t_a_d_1_1_ambiente}{T\+A\+D\+::\+Ambiente}} \& T\+A\+D\+::\+Animal\+::get\+Ambiente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_ac3063c0da27d022609459bd440ef4915}\label{class_t_a_d_1_1_animal_ac3063c0da27d022609459bd440ef4915}} 
+\index{TAD::Animal@{TAD::Animal}!getEspecie@{getEspecie}}
+\index{getEspecie@{getEspecie}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{getEspecie()}{getEspecie()}}
+{\footnotesize\ttfamily const std\+::string \& T\+A\+D\+::\+Animal\+::get\+Especie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a243e03a60025377043ce85e8615ec490}\label{class_t_a_d_1_1_animal_a243e03a60025377043ce85e8615ec490}} 
+\index{TAD::Animal@{TAD::Animal}!getId@{getId}}
+\index{getId@{getId}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Animal\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_abc1988e1fd3ea4d6adea8bd20df93014}\label{class_t_a_d_1_1_animal_abc1988e1fd3ea4d6adea8bd20df93014}} 
+\index{TAD::Animal@{TAD::Animal}!getIdade@{getIdade}}
+\index{getIdade@{getIdade}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{getIdade()}{getIdade()}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Animal\+::get\+Idade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_ad22e035ad6a06cae9894305d2a2d2d81}\label{class_t_a_d_1_1_animal_ad22e035ad6a06cae9894305d2a2d2d81}} 
+\index{TAD::Animal@{TAD::Animal}!getNome@{getNome}}
+\index{getNome@{getNome}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily const std\+::string \& T\+A\+D\+::\+Animal\+::get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_ac134b9cb49543290e692984f5eaeee36}\label{class_t_a_d_1_1_animal_ac134b9cb49543290e692984f5eaeee36}} 
+\index{TAD::Animal@{TAD::Animal}!setAmbiente@{setAmbiente}}
+\index{setAmbiente@{setAmbiente}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{setAmbiente()}{setAmbiente()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::set\+Ambiente (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_t_a_d_1_1_ambiente}{Ambiente}} \&}]{ambiente }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a746eb0658131e50342a91544f7a811ce}\label{class_t_a_d_1_1_animal_a746eb0658131e50342a91544f7a811ce}} 
+\index{TAD::Animal@{TAD::Animal}!setEspecie@{setEspecie}}
+\index{setEspecie@{setEspecie}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{setEspecie()}{setEspecie()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::set\+Especie (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{especie }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a62f00b7506b9b47dcab3e253eecf9608}\label{class_t_a_d_1_1_animal_a62f00b7506b9b47dcab3e253eecf9608}} 
+\index{TAD::Animal@{TAD::Animal}!setId@{setId}}
+\index{setId@{setId}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a7dd6ac8aae05dbc975f78f9bedf72ad8}\label{class_t_a_d_1_1_animal_a7dd6ac8aae05dbc975f78f9bedf72ad8}} 
+\index{TAD::Animal@{TAD::Animal}!setIdade@{setIdade}}
+\index{setIdade@{setIdade}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{setIdade()}{setIdade()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::set\+Idade (\begin{DoxyParamCaption}\item[{int}]{idade }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a87ad3fca0d4c968cf2a00790e191c98b}\label{class_t_a_d_1_1_animal_a87ad3fca0d4c968cf2a00790e191c98b}} 
+\index{TAD::Animal@{TAD::Animal}!setNome@{setNome}}
+\index{setNome@{setNome}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily void T\+A\+D\+::\+Animal\+::set\+Nome (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{nome }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_ae23cb573bafb67723c741a047c56d955}\label{class_t_a_d_1_1_animal_ae23cb573bafb67723c741a047c56d955}} 
+\index{TAD::Animal@{TAD::Animal}!ambiente@{ambiente}}
+\index{ambiente@{ambiente}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{ambiente}{ambiente}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_a_d_1_1_ambiente}{T\+A\+D\+::\+Ambiente}} T\+A\+D\+::\+Animal\+::ambiente\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a2943b48e824052e02c25a2274e45af6d}\label{class_t_a_d_1_1_animal_a2943b48e824052e02c25a2274e45af6d}} 
+\index{TAD::Animal@{TAD::Animal}!especie@{especie}}
+\index{especie@{especie}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{especie}{especie}}
+{\footnotesize\ttfamily std\+::string T\+A\+D\+::\+Animal\+::especie\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_ae5a2512419e6fcd2e5f8a86a5d0c163b}\label{class_t_a_d_1_1_animal_ae5a2512419e6fcd2e5f8a86a5d0c163b}} 
+\index{TAD::Animal@{TAD::Animal}!id@{id}}
+\index{id@{id}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Animal\+::id\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a3e3edebc80d438e37f6eb83ec759a9a8}\label{class_t_a_d_1_1_animal_a3e3edebc80d438e37f6eb83ec759a9a8}} 
+\index{TAD::Animal@{TAD::Animal}!idade@{idade}}
+\index{idade@{idade}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{idade}{idade}}
+{\footnotesize\ttfamily int T\+A\+D\+::\+Animal\+::idade\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_t_a_d_1_1_animal_a5db0bc6ed0fe839a50f483c7721655ef}\label{class_t_a_d_1_1_animal_a5db0bc6ed0fe839a50f483c7721655ef}} 
+\index{TAD::Animal@{TAD::Animal}!nome@{nome}}
+\index{nome@{nome}!TAD::Animal@{TAD::Animal}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily std\+::string T\+A\+D\+::\+Animal\+::nome\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+A\+D/\mbox{\hyperlink{_animal_8hpp}{Animal.\+hpp}}\item 
+T\+A\+D/\mbox{\hyperlink{_animal_8cpp}{Animal.\+cpp}}\end{DoxyCompactItemize}

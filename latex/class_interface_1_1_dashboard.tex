@@ -1,0 +1,123 @@
+\hypertarget{class_interface_1_1_dashboard}{}\doxysection{Interface\+::Dashboard Class Reference}
+\label{class_interface_1_1_dashboard}\index{Interface::Dashboard@{Interface::Dashboard}}
+
+
+{\ttfamily \#include $<$Dashboard.\+hpp$>$}
+
+Inheritance diagram for Interface\+::Dashboard\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_interface_1_1_dashboard}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interface_1_1_dashboard_a7174d6a0b77f2c90560a05ac34acd886}{Dashboard}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_interface_1_1_abstract_interface}{Abstract\+Interface}} é chamada para mostrar o título. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_dashboard_ae89164d287ee086db9a3387a6ca0ccb7}{exibir}} () override
+\begin{DoxyCompactList}\small\item\em Exibe o menu principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_interface_1_1_dashboard_ae7137d8e73e91987fa31a7b324d317bd}{processar\+Entrada}} (int opcao) override
+\begin{DoxyCompactList}\small\item\em Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_dashboard_a849d21bc6dd5488a976565a1c00a1142}{cadastrar\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 1, um cadastro do animal é criado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interface_1_1_dashboard_a3e60a413c65602a69b50f5736dd6130e}{buscar\+Animal}} ()
+\begin{DoxyCompactList}\small\item\em Se a opção escolhida for 2, uma busca por animal é criada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interface_1_1_dashboard_a7174d6a0b77f2c90560a05ac34acd886}\label{class_interface_1_1_dashboard_a7174d6a0b77f2c90560a05ac34acd886}} 
+\index{Interface::Dashboard@{Interface::Dashboard}!Dashboard@{Dashboard}}
+\index{Dashboard@{Dashboard}!Interface::Dashboard@{Interface::Dashboard}}
+\doxysubsubsection{\texorpdfstring{Dashboard()}{Dashboard()}}
+{\footnotesize\ttfamily Interface\+::\+Dashboard\+::\+Dashboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_interface_1_1_abstract_interface}{Abstract\+Interface}} é chamada para mostrar o título. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em título} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interface_1_1_dashboard_a3e60a413c65602a69b50f5736dd6130e}\label{class_interface_1_1_dashboard_a3e60a413c65602a69b50f5736dd6130e}} 
+\index{Interface::Dashboard@{Interface::Dashboard}!buscarAnimal@{buscarAnimal}}
+\index{buscarAnimal@{buscarAnimal}!Interface::Dashboard@{Interface::Dashboard}}
+\doxysubsubsection{\texorpdfstring{buscarAnimal()}{buscarAnimal()}}
+{\footnotesize\ttfamily void Interface\+::\+Dashboard\+::buscar\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Se a opção escolhida for 2, uma busca por animal é criada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_dashboard_a849d21bc6dd5488a976565a1c00a1142}\label{class_interface_1_1_dashboard_a849d21bc6dd5488a976565a1c00a1142}} 
+\index{Interface::Dashboard@{Interface::Dashboard}!cadastrarAnimal@{cadastrarAnimal}}
+\index{cadastrarAnimal@{cadastrarAnimal}!Interface::Dashboard@{Interface::Dashboard}}
+\doxysubsubsection{\texorpdfstring{cadastrarAnimal()}{cadastrarAnimal()}}
+{\footnotesize\ttfamily void Interface\+::\+Dashboard\+::cadastrar\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Se a opção escolhida for 1, um cadastro do animal é criado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_1_1_dashboard_ae89164d287ee086db9a3387a6ca0ccb7}\label{class_interface_1_1_dashboard_ae89164d287ee086db9a3387a6ca0ccb7}} 
+\index{Interface::Dashboard@{Interface::Dashboard}!exibir@{exibir}}
+\index{exibir@{exibir}!Interface::Dashboard@{Interface::Dashboard}}
+\doxysubsubsection{\texorpdfstring{exibir()}{exibir()}}
+{\footnotesize\ttfamily void Interface\+::\+Dashboard\+::exibir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Exibe o menu principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em --} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_interface_1_1_abstract_interface_af1a45726ea636cdbf1cf2d7daa5708be}{Interface\+::\+Abstract\+Interface}}.
+
+\mbox{\Hypertarget{class_interface_1_1_dashboard_ae7137d8e73e91987fa31a7b324d317bd}\label{class_interface_1_1_dashboard_ae7137d8e73e91987fa31a7b324d317bd}} 
+\index{Interface::Dashboard@{Interface::Dashboard}!processarEntrada@{processarEntrada}}
+\index{processarEntrada@{processarEntrada}!Interface::Dashboard@{Interface::Dashboard}}
+\doxysubsubsection{\texorpdfstring{processarEntrada()}{processarEntrada()}}
+{\footnotesize\ttfamily void Interface\+::\+Dashboard\+::processar\+Entrada (\begin{DoxyParamCaption}\item[{int}]{opcao }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Após exibir o menu, o usuário escolhe uma opção, a entrada é processada e a função correspondente é chamada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em opcao} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_interface_1_1_abstract_interface_a3491e705cd77a180209406fc063916d3}{Interface\+::\+Abstract\+Interface}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Interface/\mbox{\hyperlink{_dashboard_8hpp}{Dashboard.\+hpp}}\item 
+Interface/\mbox{\hyperlink{_dashboard_8cpp}{Dashboard.\+cpp}}\end{DoxyCompactItemize}
